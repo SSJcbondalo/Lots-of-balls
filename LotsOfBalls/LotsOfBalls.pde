@@ -27,11 +27,11 @@ void draw() {
   textSize(150);
   text("It's Lit!", width/6, height/2);
   textSize(60);
-  text("~ Mihir Mehta", width/6, 400);
+  text("~ yaboi", 300, 400);
   for (int i = 0; i < count; i++) {
-    if (mousePressed){
-    fill(random(255),random(255),random(255));
-  }
+    if (mousePressed) {
+      fill(random(255), random(255), random(255));
+    }
     ellipse(x[i], y[i], diam[i], diam[i]);
 
     //add velocity to position
@@ -50,4 +50,4 @@ void draw() {
       velY[i] = abs(velY[i]);
     }
   }
-}
+} 
